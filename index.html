@@ -15,8 +15,9 @@
             overflow: auto;
         }
 
+        /* 内部盒子需要 宽度和外层遮罩的宽度相同, 防止以前没有滚动条  后出现的滚动条 影响内部盒子所占的宽度, */
         .inner {
-            width: 400px;
+            width: 380px;
             height: 1000px;
             background-color: orange;
         }
